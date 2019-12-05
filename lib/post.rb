@@ -21,6 +21,6 @@ class Post
   end
 
   def author_name
-    author.name if artist
+    author.name if author
   end
 end
